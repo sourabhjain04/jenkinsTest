@@ -13,6 +13,6 @@ public class LogoutTest extends BaseTest {
         
         HomePage home = new HomePage(driver);
         home.logout();
-        Assert.assertTrue(driver.getCurrentUrl().contains("saucedemo"), "Logout Failed!");
+        Assert.assertTrue(driver.getCurrentUrl().contains("12345"), "Logout Failed!");
     }
 }
