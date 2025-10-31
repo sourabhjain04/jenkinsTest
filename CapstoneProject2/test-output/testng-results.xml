@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="10" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-31T14:33:51 IST" name="Capstone Project 2 Test Suite" finished-at="2025-10-31T14:34:26 IST" duration-ms="34684">
+    <groups>
+      <group name="Regression">
+        <method signature="DataDrivenLoginTest.testMultipleLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:CapstoneProject2.DataDrivenLoginTest@544fa968]" name="testMultipleLogin" class="CapstoneProject2.DataDrivenLoginTest"/>
+        <method signature="LoginTest.invalidLoginTest()[pri:0, instance:CapstoneProject2.LoginTest@fa4c865]" name="invalidLoginTest" class="CapstoneProject2.LoginTest"/>
+        <method signature="PurchaseTest.verifyPurchaseFlow()[pri:0, instance:CapstoneProject2.PurchaseTest@3bd82cf5]" name="verifyPurchaseFlow" class="CapstoneProject2.PurchaseTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="LoginTest.validLoginTest()[pri:0, instance:CapstoneProject2.LoginTest@692f203f]" name="validLoginTest" class="CapstoneProject2.LoginTest"/>
+        <method signature="LogoutTest.verifyLogout()[pri:0, instance:CapstoneProject2.LogoutTest@3754a4bf]" name="verifyLogout" class="CapstoneProject2.LogoutTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-10-31T14:33:51 IST" name="Smoke Tests" finished-at="2025-10-31T14:34:01 IST" duration-ms="9495">
+      <class name="CapstoneProject2.LogoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:CapstoneProject2.LogoutTest@3754a4bf]" started-at="2025-10-31T14:33:56 IST" name="setUp" finished-at="2025-10-31T14:33:59 IST" duration-ms="2887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogout()[pri:0, instance:CapstoneProject2.LogoutTest@3754a4bf]" started-at="2025-10-31T14:33:59 IST" name="verifyLogout" finished-at="2025-10-31T14:34:00 IST" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CapstoneProject2.LogoutTest@3754a4bf]" started-at="2025-10-31T14:34:00 IST" name="tearDown" finished-at="2025-10-31T14:34:01 IST" duration-ms="895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CapstoneProject2.LogoutTest -->
+      <class name="CapstoneProject2.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:CapstoneProject2.LoginTest@692f203f]" started-at="2025-10-31T14:33:51 IST" name="setUp" finished-at="2025-10-31T14:33:55 IST" duration-ms="3820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLoginTest()[pri:0, instance:CapstoneProject2.LoginTest@692f203f]" started-at="2025-10-31T14:33:55 IST" name="validLoginTest" finished-at="2025-10-31T14:33:56 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CapstoneProject2.LoginTest@692f203f]" started-at="2025-10-31T14:33:56 IST" name="tearDown" finished-at="2025-10-31T14:33:56 IST" duration-ms="869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CapstoneProject2.LoginTest -->
+    </test> <!-- Smoke Tests -->
+    <test started-at="2025-10-31T14:34:01 IST" name="RegressionTests" finished-at="2025-10-31T14:34:26 IST" duration-ms="25168">
+      <class name="CapstoneProject2.PurchaseTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:CapstoneProject2.PurchaseTest@3bd82cf5]" started-at="2025-10-31T14:34:05 IST" name="setUp" finished-at="2025-10-31T14:34:08 IST" duration-ms="2791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPurchaseFlow()[pri:0, instance:CapstoneProject2.PurchaseTest@3bd82cf5]" started-at="2025-10-31T14:34:08 IST" name="verifyPurchaseFlow" finished-at="2025-10-31T14:34:09 IST" duration-ms="796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPurchaseFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CapstoneProject2.PurchaseTest@3bd82cf5]" started-at="2025-10-31T14:34:09 IST" name="tearDown" finished-at="2025-10-31T14:34:10 IST" duration-ms="1012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CapstoneProject2.PurchaseTest -->
+      <class name="CapstoneProject2.DataDrivenLoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:CapstoneProject2.DataDrivenLoginTest@544fa968]" started-at="2025-10-31T14:34:10 IST" name="setUp" finished-at="2025-10-31T14:34:13 IST" duration-ms="2820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMultipleLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:CapstoneProject2.DataDrivenLoginTest@544fa968]" started-at="2025-10-31T14:34:13 IST" name="testMultipleLogin" data-provider="loginData" finished-at="2025-10-31T14:34:13 IST" duration-ms="325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CapstoneProject2.DataDrivenLoginTest@544fa968]" started-at="2025-10-31T14:34:13 IST" name="tearDown" finished-at="2025-10-31T14:34:14 IST" duration-ms="904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:CapstoneProject2.DataDrivenLoginTest@544fa968]" started-at="2025-10-31T14:34:14 IST" name="setUp" finished-at="2025-10-31T14:34:17 IST" duration-ms="2996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMultipleLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:CapstoneProject2.DataDrivenLoginTest@544fa968]" started-at="2025-10-31T14:34:17 IST" name="testMultipleLogin" data-provider="loginData" finished-at="2025-10-31T14:34:17 IST" duration-ms="278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CapstoneProject2.DataDrivenLoginTest@544fa968]" started-at="2025-10-31T14:34:17 IST" name="tearDown" finished-at="2025-10-31T14:34:18 IST" duration-ms="904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:CapstoneProject2.DataDrivenLoginTest@544fa968]" started-at="2025-10-31T14:34:18 IST" name="setUp" finished-at="2025-10-31T14:34:21 IST" duration-ms="2772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMultipleLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:CapstoneProject2.DataDrivenLoginTest@544fa968]" started-at="2025-10-31T14:34:21 IST" name="testMultipleLogin" data-provider="loginData" finished-at="2025-10-31T14:34:21 IST" duration-ms="271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CapstoneProject2.DataDrivenLoginTest@544fa968]" started-at="2025-10-31T14:34:21 IST" name="tearDown" finished-at="2025-10-31T14:34:22 IST" duration-ms="1005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:CapstoneProject2.DataDrivenLoginTest@544fa968]" started-at="2025-10-31T14:34:22 IST" name="setUp" finished-at="2025-10-31T14:34:25 IST" duration-ms="2971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMultipleLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:CapstoneProject2.DataDrivenLoginTest@544fa968]" started-at="2025-10-31T14:34:25 IST" name="testMultipleLogin" data-provider="loginData" finished-at="2025-10-31T14:34:25 IST" duration-ms="226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CapstoneProject2.DataDrivenLoginTest@544fa968]" started-at="2025-10-31T14:34:25 IST" name="tearDown" finished-at="2025-10-31T14:34:26 IST" duration-ms="892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CapstoneProject2.DataDrivenLoginTest -->
+      <class name="CapstoneProject2.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:CapstoneProject2.LoginTest@fa4c865]" started-at="2025-10-31T14:34:01 IST" name="setUp" finished-at="2025-10-31T14:34:04 IST" duration-ms="2868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginTest()[pri:0, instance:CapstoneProject2.LoginTest@fa4c865]" started-at="2025-10-31T14:34:04 IST" name="invalidLoginTest" finished-at="2025-10-31T14:34:04 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CapstoneProject2.LoginTest@fa4c865]" started-at="2025-10-31T14:34:04 IST" name="tearDown" finished-at="2025-10-31T14:34:05 IST" duration-ms="985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CapstoneProject2.LoginTest -->
+    </test> <!-- RegressionTests -->
+  </suite> <!-- Capstone Project 2 Test Suite -->
+</testng-results>
